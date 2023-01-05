@@ -169,14 +169,14 @@ gap: 6px;
   grid-template-columns: repeat(2, 1fr);
   margin: 90px 0 60px ;
   gap: 40px 20px ;
-  flex-wrap: wrap;
-  display: flex;
+
+
  }
  .excursion_item{
-  display: flex;
+display: flex;
   gap: 20px;
   align-items: flex-start;
-  flex-wrap: wrap;
+  
  }
  .excursion_item h3{
   font-weight: 700;
