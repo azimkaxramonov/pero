@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .promo{
-height: 789px;
+height: 760px;
 position: relative;
 }
 .video{
@@ -16,6 +16,9 @@ position: absolute;
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
+}
+.container2{
+  padding: 20px 200px;
 }
 .header{
   display: flex;
@@ -142,6 +145,7 @@ gap: 6px;
 
  }
  .aboutbox{
+ 
  max-width: 546px;
  height: 469px;
   margin: 0 auto;
@@ -149,6 +153,7 @@ gap: 6px;
   padding: 60px 80px 100px;
   gap: 20px ;
   border-radius: 10px;
+  
  }
  .aboutbox h2{
   margin-bottom: 40px;
@@ -164,11 +169,14 @@ gap: 6px;
   grid-template-columns: repeat(2, 1fr);
   margin: 90px 0 60px ;
   gap: 40px 20px ;
+  flex-wrap: wrap;
+  display: flex;
  }
  .excursion_item{
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  flex-wrap: wrap;
  }
  .excursion_item h3{
   font-weight: 700;
@@ -181,7 +189,11 @@ margin-bottom: 10px;
   max-width: 550px ;
   margin: 0 auto;
   text-align: center;
+
  }
-.excursion_bottom p{
+.about p{
   
+}
+.excursion button{
+ margin-top: 30px;
 }

@@ -11,8 +11,8 @@
         grid-template-columns: repeat(1, 1fr);
       }
       .video{
-        width: 768px;
-height: 769px;
+        width: 100%;
+height: 100%;
       }
       .promo h1{
         font-size: 60px;
@@ -27,7 +27,14 @@ height: 769px;
       .menu{
         display: flex;
       }
+.aboutbox{
+  height: 600px;
 }
+.about{
+  height: 850px;
+}
+    }
+
 
 @media (max-width: 576px){
     .promo h1{
